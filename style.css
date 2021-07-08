@@ -15,15 +15,16 @@
   margin-left: 30px;
 
 }
+.ok
+{
+background-color: rgb(31,6,6);
+
+}
 .bg
 {
     background-color: #fceae8;
     width: 100%;
     border-radius: 10px;
-}
-.navbar-light
-{
-    background-color: greenyellow;
 }
 
 .carousel
@@ -97,7 +98,28 @@ margin-left: 0%;
 }
 footer
 {
-    background-color: #da0f5c;
+    background-color: rgb(31,6,6);
     color: wheat;
-    height: 50%;
+    height: 100%;
+   
+}
+.nav-link:hover
+{
+    background-color: rgb(50, 174, 205);
+    color: white;
+   
+}
+.nav-item
+{
+    color: white;
+}
+.navbar-brand
+{
+    color: white;
+    font-size: 30px;
+}
+button:hover
+{
+    color: rgb(50, 78, 205);
+    font-size: bold;
 }
